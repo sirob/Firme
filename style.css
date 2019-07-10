@@ -1,0 +1,9 @@
+/* For mobile screens */
+
+.Mercator {
+	height: 19.75px;
+	width: 19.75px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+}
