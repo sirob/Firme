@@ -19,8 +19,8 @@ h1 {
 }
 
 .Mercator {
-	height: 262pxpx;
-	width: 262pxpx;
+	height: 262px;
+	width: 262px;
 	background-color: red;
 	border-radius: 50%;
 	display: inline-block;
