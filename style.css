@@ -3,13 +3,18 @@
 body {
 	background-color: black;
 	font-family: Lato, sans-serif;
+	color: white;
 	text-align: center;
 }
 
-h1, h2, h3, p {
-	color: white;
+h1 {
+	font-size: 1.6em;
 }
 
+#podnaslov {
+	font-size: 0.7em;
+	font-weight: 400;
+}
 
 .Mercator {
 	height: 19.75px;
