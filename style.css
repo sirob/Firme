@@ -1,5 +1,16 @@
 /* For mobile screens */
 
+body {
+	background-color: black;
+	font-family: Lato, sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3, p {
+	color: white;
+}
+
+
 .Mercator {
 	height: 19.75px;
 	width: 19.75px;
