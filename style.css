@@ -26,6 +26,15 @@ h2 {
 	line-height: 1em;
 }
 
+.Mercator {
+	height: /*19.75px;*/ 262px;
+	width: /*19.75px;*/ 262px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+
+/* For larger screens
 .firm {
 	display: flex;
 	align-items: center;
@@ -38,10 +47,10 @@ h2 {
 }
 
 .Mercator {
-	height: /*19.75px;*/ 262px;
-	width: /*19.75px;*/ 262px;
+	height: 19.75px; 262px;
+	width: 19.75px; 262px;
 	background-color: red;
 	border-radius: 50%;
 	display: inline-block;
 	float:left;
-}
+} */
