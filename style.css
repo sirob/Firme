@@ -31,6 +31,7 @@ h2 {
 	width: /*19.75px;*/ 262px;
 	background-color: red;
 	border-radius: 50%;
+	display: inline-block;
 }
 
 
