@@ -8,16 +8,14 @@ body {
 }
 
 h1 {
-	font-size: 1.6em;
-	letter-spacing: 0.3em;
-	margin-bottom: 20%;
+	font-size: 1.3em;
+	letter-spacing: 0.2em;
 }
 
 
 #podnaslov {
-	font-size: 0.7em;
+	font-size: 0.4em;
 	font-weight: 400;
-	letter-spacing: 0.1em;
 }
 
 h2 {
