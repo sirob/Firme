@@ -150,7 +150,7 @@ h2 {
 
 .cel_Mercator {
 	height: 110px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	-webkit-animation: move-down-mer 42s linear 6s  forwards;
 	        animation: move-down-mer 42s linear 6s  forwards;
 	transform:translateY(-1298%);
@@ -158,7 +158,7 @@ h2 {
 
 .cela_Sava {
 	height: 126px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	-webkit-animation: move-down-sav 36s linear 12s  forwards;
 	        animation: move-down-sav 36s linear 12s  forwards;
 			transform: translateY(-1030%);
@@ -167,7 +167,7 @@ h2 {
 
 .cela_Luka {
 	height: 140px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	-webkit-animation: move-down-luk 30s linear 18s  forwards;
 	        animation: move-down-luk 30s linear 18s  forwards;
 			transform: translateY(-820%);
@@ -175,7 +175,7 @@ h2 {
 
 .cel_Telekom {
 	height: 140px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	-webkit-animation: move-down-tel 24s linear 24s  forwards;
 	        animation: move-down-tel 24s linear 24s  forwards;
 			transform: translateY(-710%);
@@ -183,7 +183,7 @@ h2 {
 
 .cel_Triglav {
 	height: 183.375px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	-webkit-animation: move-down-tri 18s linear 30s  forwards;
 	        animation: move-down-tri 18s linear 30s  forwards;
 			transform: translateY(-439%);
@@ -191,7 +191,7 @@ h2 {
 
 .cel_Petrol {
 	height: 183.375px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	-webkit-animation: move-down-pet 12s linear 36s  forwards;
 	        animation: move-down-pet 12s linear 36s  forwards;
 			transform: translateY(-330%);
@@ -199,7 +199,7 @@ h2 {
 
 .cela_NLB {
 	height: 233.25px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	-webkit-animation: move-down-nlb 6s linear 42s  forwards;
 	        animation: move-down-nlb 6s linear 42s  forwards;
 			transform: translateY(-155%);
@@ -207,7 +207,7 @@ h2 {
 
 .cela_Krka {
 	height: 352.25px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 }
 
 @keyframes move-down-mer {
