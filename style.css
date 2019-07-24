@@ -148,64 +148,119 @@ h2 {
 }
 
 
-.firm {
-	-webkit-animation: move-down 42s linear 6s  forwards;
-	        animation: move-down 42s linear 6s  forwards;
-			transform: translateY(-700%);
-			height: 365px;
+.cel_Mercator {
+	height: 110px;
+	margin: 1%;
+	-webkit-animation: move-down-mer 42s linear 6s  forwards;
+	        animation: move-down-mer 42s linear 6s  forwards;
+	transform:translateY(-1298%);
 }
 
-@-webkit-keyframes move-down {
+.cela_Sava {
+	height: 126px;
+	margin: 1%;
+	-webkit-animation: move-down-sav 36s linear 12s  forwards;
+	        animation: move-down-sav 36s linear 12s  forwards;
+			transform: translateY(-1030%);
+	
+}
+
+.cela_Luka {
+	height: 140px;
+	margin: 1%;
+	-webkit-animation: move-down-luk 30s linear 18s  forwards;
+	        animation: move-down-luk 30s linear 18s  forwards;
+			transform: translateY(-820%);
+}
+
+.cel_Telekom {
+	height: 140px;
+	margin: 1%;
+	-webkit-animation: move-down-tel 24s linear 24s  forwards;
+	        animation: move-down-tel 24s linear 24s  forwards;
+			transform: translateY(-710%);
+}
+
+.cel_Triglav {
+	height: 183.375px;
+	margin: 1%;
+	-webkit-animation: move-down-tri 18s linear 30s  forwards;
+	        animation: move-down-tri 18s linear 30s  forwards;
+			transform: translateY(-439%);
+}
+
+.cel_Petrol {
+	height: 183.375px;
+	margin: 1%;
+	-webkit-animation: move-down-pet 12s linear 36s  forwards;
+	        animation: move-down-pet 12s linear 36s  forwards;
+			transform: translateY(-330%);
+}
+
+.cela_NLB {
+	height: 233.25px;
+	margin: 1%;
+	-webkit-animation: move-down-nlb 6s linear 42s  forwards;
+	        animation: move-down-nlb 6s linear 42s  forwards;
+			transform: translateY(-155%);
+}
+
+.cela_Krka {
+	height: 352.25px;
+	margin: 1%;
+}
+
+@keyframes move-down-mer {
 	0% {
-		transform: translateY(-700%);
+		transform: translateY(-1298%);
 	}  /* 1s*/
 	
 	2.381% {
-		transform: translateY(-600%);
+		transform: translateY(-1112.57%);
 	}   /* 5s */
 	
 	14.285% { /* 10รท7 */
-		transform: translateY(-600%);
+		transform: translateY(-1112.57%);
 	}
 	
 	16.666% {
-		transform: translateY(-500%);
+		transform: translateY(-927.14%);
 	}
 	
 	28.571% {
-		transform: translateY(-500%);
+		transform: translateY(-927.14%);
 	}
 	
 	30.952%  {
-		transform: translateY(-400%);
+		transform: translateY(-741.71%);
 	}
 	
 	42.857%  {
-		transform: translateY(-400%);
+		transform: translateY(-741.71%);
 	}
 	
 	45.238%  {
-		transform: translateY(-300%);
+		transform: translateY(-556.28%);
 	}
 	
 	57.143%  {
-		transform: translateY(-300%);
+		transform: translateY(-556.28%);
 	}
 	
 	59.524% {
-		transform: translateY(-200%);
+		transform: translateY(-370.85%);
 	}
 	
 	71.429% {
-		transform: translateY(-200%);
+		transform: translateY(-370.85%);
 	}
 	
 	73.81%  {
-		transform: translateY(-100%);
+		transform: translateY(-185.43%);
 	}
 	
 	85.714% {
-		transform: translateY(-100%);
+		transform: translateY(-185.43%);
 	}
 	
 	88.095%  {
@@ -217,57 +272,58 @@ h2 {
 	}
 }
 
-@keyframes move-down {
+
+@-webkit-keyframes move-down-mer {
 	0% {
-		transform: translateY(-700%);
+		transform: translateY(-1298%);
 	}  /* 1s*/
 	
 	2.381% {
-		transform: translateY(-600%);
+		transform: translateY(-1112.57%);
 	}   /* 5s */
 	
 	14.285% { /* 10รท7 */
-		transform: translateY(-600%);
+		transform: translateY(-1112.57%);
 	}
 	
 	16.666% {
-		transform: translateY(-500%);
+		transform: translateY(-927.14%);
 	}
 	
 	28.571% {
-		transform: translateY(-500%);
+		transform: translateY(-927.14%);
 	}
 	
 	30.952%  {
-		transform: translateY(-400%);
+		transform: translateY(-741.71%);
 	}
 	
 	42.857%  {
-		transform: translateY(-400%);
+		transform: translateY(-741.71%);
 	}
 	
 	45.238%  {
-		transform: translateY(-300%);
+		transform: translateY(-556.28%);
 	}
 	
 	57.143%  {
-		transform: translateY(-300%);
+		transform: translateY(-556.28%);
 	}
 	
 	59.524% {
-		transform: translateY(-200%);
+		transform: translateY(-370.85%);
 	}
 	
 	71.429% {
-		transform: translateY(-200%);
+		transform: translateY(-370.85%);
 	}
 	
 	73.81%  {
-		transform: translateY(-100%);
+		transform: translateY(-185.43%);
 	}
 	
 	85.714% {
-		transform: translateY(-100%);
+		transform: translateY(-185.43%);
 	}
 	
 	88.095%  {
@@ -277,8 +333,417 @@ h2 {
 	100% {
 		transform: translateY(0%);
 	}
+}
+
+@keyframes move-down-sav {
+		0% {
+		transform: translateY(-1030%);
+	}  /* 1s*/
+	
+	2.777% {
+		transform: translateY(-858.33%);
+	}   /* 5s */
+	
+	16.666% { /* 10รท6 */
+		transform: translateY(-858.33%);
+	}
+	
+	19.443% {
+		transform: translateY(-686.66%);
+	}
+	
+	33.333% {
+		transform: translateY(-686.66%);
+	}
+	
+	36.107%  {
+		transform: translateY(-514.99%);
+	}
+	
+	49.999%  {
+		transform: translateY(-514.99%);
+	}
+	
+	52.776%  {
+		transform: translateY(-343.32%);
+	}
+	
+	66.666%  {
+		transform: translateY(-343.32%);
+	}
+	
+	69.443% {
+		transform: translateY(-171.66%);
+	}
+	
+	83.333% {
+		transform: translateY(-171.66%);
+	}
+	
+	86.11%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes move-down-sav {
+		0% {
+		transform: translateY(-1030%);
+	}  /* 1s*/
+	
+	2.777% {
+		transform: translateY(-858.33%);
+	}   /* 5s */
+	
+	16.666% { /* 10รท6 */
+		transform: translateY(-858.33%);
+	}
+	
+	19.443% {
+		transform: translateY(-686.66%);
+	}
+	
+	33.333% {
+		transform: translateY(-686.66%);
+	}
+	
+	36.107%  {
+		transform: translateY(-514.99%);
+	}
+	
+	49.999%  {
+		transform: translateY(-514.99%);
+	}
+	
+	52.776%  {
+		transform: translateY(-343.32%);
+	}
+	
+	66.666%  {
+		transform: translateY(-343.32%);
+	}
+	
+	69.443% {
+		transform: translateY(-171.66%);
+	}
+	
+	83.333% {
+		transform: translateY(-171.66%);
+	}
+	
+	86.11%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes move-down-luk {
+	0% {
+		transform: translateY(-820%);
+	}  /* 1s*/
+	
+	3.333% {
+		transform: translateY(-656%);
+	}   /* 5s */
+	
+	20% { /* 10รท5 */
+		transform: translateY(-656%);
+	}
+	
+	23.333% {
+		transform: translateY(-492%);
+	}
+	
+	40% {
+		transform: translateY(-492%);
+	}
+	
+	43.333%  {
+		transform: translateY(-328%);
+	}
+	
+	60%  {
+		transform: translateY(-328%);
+	}
+	
+	63.333%  {
+		transform: translateY(-164%);
+	}
+	
+	80%  {
+		transform: translateY(-164%);
+	}
+	
+	83.333% {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes move-down-luk {
+	0% {
+		transform: translateY(-820%);
+	}  /* 1s*/
+	
+	3.333% {
+		transform: translateY(-656%);
+	}   /* 5s */
+	
+	20% { /* 10รท5 */
+		transform: translateY(-656%);
+	}
+	
+	23.333% {
+		transform: translateY(-492%);
+	}
+	
+	40% {
+		transform: translateY(-492%);
+	}
+	
+	43.333%  {
+		transform: translateY(-328%);
+	}
+	
+	60%  {
+		transform: translateY(-328%);
+	}
+	
+	63.333%  {
+		transform: translateY(-164%);
+	}
+	
+	80%  {
+		transform: translateY(-164%);
+	}
+	
+	83.333% {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes move-down-tel {
+	0% {
+		transform: translateY(-710%);
+	}  /* 1s*/
+	
+	4.166% {
+		transform: translateY(-532.5%);
+	}   /* 5s */
+	
+	25% { /* 10รท4 */
+		transform: translateY(-532.5%);
+	}
+	
+	29.166% {
+		transform: translateY(-355%);
+	}
+	
+	50% {
+		transform: translateY(-355%);
+	}
+	
+	54.166%  {
+		transform: translateY(-177.5%);
+	}
+	
+	75%  {
+		transform: translateY(-177.5%);
+	}
+	
+	79.166%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
 	
 }
+
+@-webkit-keyframes move-down-tel {
+	0% {
+		transform: translateY(-710%);
+	}  /* 1s*/
+	
+	4.166% {
+		transform: translateY(-532.5%);
+	}   /* 5s */
+	
+	25% { /* 10รท4 */
+		transform: translateY(-532.5%);
+	}
+	
+	29.166% {
+		transform: translateY(-355%);
+	}
+	
+	50% {
+		transform: translateY(-355%);
+	}
+	
+	54.166%  {
+		transform: translateY(-177.5%);
+	}
+	
+	75%  {
+		transform: translateY(-177.5%);
+	}
+	
+	79.166%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes move-down-tri {
+    0% {
+		transform: translateY(-439%);
+	}  /* 1s*/
+	
+	5.555% {
+		transform: translateY(-292.67%);
+	}   /* 5s */
+	
+	33.333% { /* 10รท3 */
+		transform: translateY(-292.67%);
+	}
+	
+	38.8885% {
+		transform: translateY(-146.34%);
+	}
+	
+	66.666% {
+		transform: translateY(-146.34%);
+	}
+	
+	72.221%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes move-down-tri {
+	0% {
+		transform: translateY(-439%);
+	}  /* 1s*/
+	
+	5.555% {
+		transform: translateY(-292.67%);
+	}   /* 5s */
+	
+	33.333% { /* 10รท3 */
+		transform: translateY(-292.67%);
+	}
+	
+	38.8885% {
+		transform: translateY(-146.34%);
+	}
+	
+	66.666% {
+		transform: translateY(-146.34%);
+	}
+	
+	72.221%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes move-down-pet {
+	0% {
+		transform: translateY(-330%);
+	}  /* 1s*/
+	
+	8.333% {
+		transform: translateY(-165%);
+	}   /* 5s */
+	
+	50% { /* 10รท3 */
+		transform: translateY(-165%);
+	}
+	
+	58.333%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes move-down-pet {
+	0% {
+		transform: translateY(-330%);
+	}  /* 1s*/
+	
+	8.333% {
+		transform: translateY(-165%);
+	}   /* 5s */
+	
+	50% { /* 10รท3 */
+		transform: translateY(-165%);
+	}
+	
+	58.333%  {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes move-down-nlb {
+	0% {
+		transform: translateY(-155%);
+	}  /* 1s*/
+	
+	16.666% {
+		transform: translateY(0%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes move-down-nlb {
+	0% {
+		transform: translateY(-155%);
+	}  /* 1s*/
+	
+	16.666% {
+		transform: translateY(0%);
+	}	
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
 
 
 @-webkit-keyframes slide-left {
