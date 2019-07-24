@@ -28,7 +28,7 @@ h2 {
 .Mercator {
 	height: 19.75px;
 	width: 19.75px;
-	background-color: red;
+	background-color: #e0144c;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 4s both;
@@ -43,7 +43,7 @@ h2 {
 .SavaRe {
 	height: 35.875px;
 	width: 35.875px;
-	background-color: green;
+	background-color: #9DCFC0;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 10s both;
@@ -58,7 +58,7 @@ h2 {
 .Luka {
 	height: 50px;
 	width: 50px;
-	background-color: blue;
+	background-color: #004894;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 16s both;
@@ -73,7 +73,7 @@ h2 {
 .Telekom {
 	height: 50px;
 	width: 50px;
-	background-color: blue;
+	background-color: #009EE3;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 22s both;
@@ -89,7 +89,7 @@ h2 {
 .Triglav {
 	height: 93.375px;
 	width: 93.375px;
-	background-color: red;
+	background-color: #ed2939;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 28s both;
@@ -104,7 +104,7 @@ h2 {
 .Petrol {
 	height: 93.375px;
 	width: 93.375px;
-	background-color: red;
+	background-color: #c5002c;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 34s both;
@@ -120,7 +120,7 @@ h2 {
 .NLB {
 	height: 143.25px;
 	width: 143.25px;
-	background-color: blue;
+	background-color: #26007d;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 40s both;
@@ -135,7 +135,7 @@ h2 {
 .Krka {
 	height: 262.25px;
 	width: 262.25px;
-	background-color: green;
+	background-color: #00ab4e;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 46s both;
@@ -749,7 +749,7 @@ h2 {
 @-webkit-keyframes slide-left {
 	0% {
 		margin-left: 100%;
-		width: 300%;
+		width: 200%;
 	}
 	
 	100% {margin-left: 0%;
@@ -762,7 +762,7 @@ h2 {
 @keyframes slide-left {
 	0% {
 		margin-left: 100%;
-		width: 300%;
+		width: 200%;
 	}
 	
 	100% {margin-left: 0%;
