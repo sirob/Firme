@@ -219,7 +219,7 @@ h2 {
 		transform: translateY(-1112.57%);
 	}   /* 5s */
 	
-	14.285% { /* 10รท7 */
+	14.285% { /* 10÷7 */
 		transform: translateY(-1112.57%);
 	}
 	
@@ -282,7 +282,7 @@ h2 {
 		transform: translateY(-1112.57%);
 	}   /* 5s */
 	
-	14.285% { /* 10รท7 */
+	14.285% { /* 10÷7 */
 		transform: translateY(-1112.57%);
 	}
 	
@@ -344,7 +344,7 @@ h2 {
 		transform: translateY(-858.33%);
 	}   /* 5s */
 	
-	16.666% { /* 10รท6 */
+	16.666% { /* 10÷6 */
 		transform: translateY(-858.33%);
 	}
 	
@@ -398,7 +398,7 @@ h2 {
 		transform: translateY(-858.33%);
 	}   /* 5s */
 	
-	16.666% { /* 10รท6 */
+	16.666% { /* 10÷6 */
 		transform: translateY(-858.33%);
 	}
 	
@@ -452,7 +452,7 @@ h2 {
 		transform: translateY(-656%);
 	}   /* 5s */
 	
-	20% { /* 10รท5 */
+	20% { /* 10÷5 */
 		transform: translateY(-656%);
 	}
 	
@@ -498,7 +498,7 @@ h2 {
 		transform: translateY(-656%);
 	}   /* 5s */
 	
-	20% { /* 10รท5 */
+	20% { /* 10÷5 */
 		transform: translateY(-656%);
 	}
 	
@@ -544,7 +544,7 @@ h2 {
 		transform: translateY(-532.5%);
 	}   /* 5s */
 	
-	25% { /* 10รท4 */
+	25% { /* 10÷4 */
 		transform: translateY(-532.5%);
 	}
 	
@@ -583,7 +583,7 @@ h2 {
 		transform: translateY(-532.5%);
 	}   /* 5s */
 	
-	25% { /* 10รท4 */
+	25% { /* 10÷4 */
 		transform: translateY(-532.5%);
 	}
 	
@@ -621,7 +621,7 @@ h2 {
 		transform: translateY(-292.67%);
 	}   /* 5s */
 	
-	33.333% { /* 10รท3 */
+	33.333% { /* 10÷3 */
 		transform: translateY(-292.67%);
 	}
 	
@@ -651,7 +651,7 @@ h2 {
 		transform: translateY(-292.67%);
 	}   /* 5s */
 	
-	33.333% { /* 10รท3 */
+	33.333% { /* 10÷3 */
 		transform: translateY(-292.67%);
 	}
 	
@@ -681,7 +681,7 @@ h2 {
 		transform: translateY(-165%);
 	}   /* 5s */
 	
-	50% { /* 10รท3 */
+	50% { /* 10÷3 */
 		transform: translateY(-165%);
 	}
 	
@@ -703,7 +703,7 @@ h2 {
 		transform: translateY(-165%);
 	}   /* 5s */
 	
-	50% { /* 10รท3 */
+	50% { /* 10÷3 */
 		transform: translateY(-165%);
 	}
 	
@@ -788,30 +788,209 @@ h2 {
  
 }
 
-
-/* @-webkit-keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
-}
-@keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
+@media only screen and (min-width: 768px) {
+	
+	.cel_Mercator {
+	height: 110px;
+	margin-bottom: 5%;
+	-webkit-animation: move-down-mer 42s linear 6s  forwards;
+	        animation: move-down-mer 42s linear 6s  forwards;
+	transform:translateY(-1298%);
 }
 
+.cela_Sava {
+	height: 126px;
+	margin-bottom: 5%;
+	-webkit-animation: move-down-sav 36s linear 12s  forwards;
+	        animation: move-down-sav 36s linear 12s  forwards;
+			transform: translateY(-1030%);
+	
+}
 
- For larger screens
+.cela_Luka {
+	height: 140px;
+	margin-bottom: 5%;
+	-webkit-animation: move-down-luk 30s linear 18s  forwards;
+	        animation: move-down-luk 30s linear 18s  forwards;
+			transform: translateY(-820%);
+}
+
+.cel_Telekom {
+	height: 140px;
+	margin-bottom: 5%;
+	-webkit-animation: move-down-tel 24s linear 24s  forwards;
+	        animation: move-down-tel 24s linear 24s  forwards;
+			transform: translateY(-710%);
+}
+
+.cel_Triglav {
+	height: 183.375px;
+	margin-bottom: 5%;
+	-webkit-animation: move-down-tri 18s linear 30s  forwards;
+	        animation: move-down-tri 18s linear 30s  forwards;
+			transform: translateY(-439%);
+}
+
+.cel_Petrol {
+	height: 183.375px;
+	margin-bottom: 5%;
+	-webkit-animation: move-down-pet 12s linear 36s  forwards;
+	        animation: move-down-pet 12s linear 36s  forwards;
+			transform: translateY(-330%);
+}
+
+.cela_NLB {
+	height: 233.25px;
+	margin-bottom: 5%;
+	-webkit-animation: move-down-nlb 6s linear 42s  forwards;
+	        animation: move-down-nlb 6s linear 42s  forwards;
+			transform: translateY(-155%);
+}
+
+.cela_Krka {
+	height: 352.25px;
+	margin-bottom: 5%;
+}
+	
+	
+}
+
+@media only screen and (min-width: 992px) {
+	
+	.cel_Mercator {
+	height: 110px;
+	margin-bottom: 3%;
+	-webkit-animation: move-down-mer 42s linear 6s  forwards;
+	        animation: move-down-mer 42s linear 6s  forwards;
+	transform:translateY(-1298%);
+}
+
+.cela_Sava {
+	height: 126px;
+	margin-bottom: 3%;
+	-webkit-animation: move-down-sav 36s linear 12s  forwards;
+	        animation: move-down-sav 36s linear 12s  forwards;
+			transform: translateY(-1030%);
+	
+}
+
+.cela_Luka {
+	height: 140px;
+	margin-bottom: 3%;
+	-webkit-animation: move-down-luk 30s linear 18s  forwards;
+	        animation: move-down-luk 30s linear 18s  forwards;
+			transform: translateY(-820%);
+}
+
+.cel_Telekom {
+	height: 140px;
+	margin-bottom: 3%;
+	-webkit-animation: move-down-tel 24s linear 24s  forwards;
+	        animation: move-down-tel 24s linear 24s  forwards;
+			transform: translateY(-710%);
+}
+
+.cel_Triglav {
+	height: 183.375px;
+	margin-bottom: 3%;
+	-webkit-animation: move-down-tri 18s linear 30s  forwards;
+	        animation: move-down-tri 18s linear 30s  forwards;
+			transform: translateY(-439%);
+}
+
+.cel_Petrol {
+	height: 183.375px;
+	margin-bottom: 3%;
+	-webkit-animation: move-down-pet 12s linear 36s  forwards;
+	        animation: move-down-pet 12s linear 36s  forwards;
+			transform: translateY(-330%);
+}
+
+.cela_NLB {
+	height: 233.25px;
+	margin-bottom: 3%;
+	-webkit-animation: move-down-nlb 6s linear 42s  forwards;
+	        animation: move-down-nlb 6s linear 42s  forwards;
+			transform: translateY(-155%);
+}
+
+.cela_Krka {
+	height: 352.25px;
+	margin-bottom: 3%;
+}
+	
+	
+}
+
+@media only screen and (min-width: 1200px) {
+	
+	.cel_Mercator {
+	height: 110px;
+	margin-bottom: 2%;
+	-webkit-animation: move-down-mer 42s linear 6s  forwards;
+	        animation: move-down-mer 42s linear 6s  forwards;
+	transform:translateY(-1298%);
+}
+
+.cela_Sava {
+	height: 126px;
+	margin-bottom: 2%;
+	-webkit-animation: move-down-sav 36s linear 12s  forwards;
+	        animation: move-down-sav 36s linear 12s  forwards;
+			transform: translateY(-1030%);
+	
+}
+
+.cela_Luka {
+	height: 140px;
+	margin-bottom: 2%;
+	-webkit-animation: move-down-luk 30s linear 18s  forwards;
+	        animation: move-down-luk 30s linear 18s  forwards;
+			transform: translateY(-820%);
+}
+
+.cel_Telekom {
+	height: 140px;
+	margin-bottom: 2%;
+	-webkit-animation: move-down-tel 24s linear 24s  forwards;
+	        animation: move-down-tel 24s linear 24s  forwards;
+			transform: translateY(-710%);
+}
+
+.cel_Triglav {
+	height: 183.375px;
+	margin-bottom: 2%;
+	-webkit-animation: move-down-tri 18s linear 30s  forwards;
+	        animation: move-down-tri 18s linear 30s  forwards;
+			transform: translateY(-439%);
+}
+
+.cel_Petrol {
+	height: 183.375px;
+	margin-bottom: 2%;
+	-webkit-animation: move-down-pet 12s linear 36s  forwards;
+	        animation: move-down-pet 12s linear 36s  forwards;
+			transform: translateY(-330%);
+}
+
+.cela_NLB {
+	height: 233.25px;
+	margin-bottom: 2%;
+	-webkit-animation: move-down-nlb 6s linear 42s  forwards;
+	        animation: move-down-nlb 6s linear 42s  forwards;
+			transform: translateY(-155%);
+}
+
+.cela_Krka {
+	height: 352.25px;
+	margin-bottom: 2%;
+}
+	
+	
+}
+
+
+/*  For larger screens
 .firm {
 	display: flex;
 	align-items: center;
