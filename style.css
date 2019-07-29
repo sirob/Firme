@@ -25,6 +25,24 @@ h2 {
 	line-height: 1em;
 }
 
+a:link {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 .widescreen {
 	display: none;
 }
@@ -223,7 +241,7 @@ h2 {
 		transform: translateY(-1112.57%);
 	}   /* 5s */
 	
-	14.285% { /* 10÷7 */
+	14.285% { /* 10รท7 */
 		transform: translateY(-1112.57%);
 	}
 	
@@ -286,7 +304,7 @@ h2 {
 		transform: translateY(-1112.57%);
 	}   /* 5s */
 	
-	14.285% { /* 10÷7 */
+	14.285% { /* 10รท7 */
 		transform: translateY(-1112.57%);
 	}
 	
@@ -348,7 +366,7 @@ h2 {
 		transform: translateY(-858.33%);
 	}   /* 5s */
 	
-	16.666% { /* 10÷6 */
+	16.666% { /* 10รท6 */
 		transform: translateY(-858.33%);
 	}
 	
@@ -402,7 +420,7 @@ h2 {
 		transform: translateY(-858.33%);
 	}   /* 5s */
 	
-	16.666% { /* 10÷6 */
+	16.666% { /* 10รท6 */
 		transform: translateY(-858.33%);
 	}
 	
@@ -456,7 +474,7 @@ h2 {
 		transform: translateY(-656%);
 	}   /* 5s */
 	
-	20% { /* 10÷5 */
+	20% { /* 10รท5 */
 		transform: translateY(-656%);
 	}
 	
@@ -502,7 +520,7 @@ h2 {
 		transform: translateY(-656%);
 	}   /* 5s */
 	
-	20% { /* 10÷5 */
+	20% { /* 10รท5 */
 		transform: translateY(-656%);
 	}
 	
@@ -548,7 +566,7 @@ h2 {
 		transform: translateY(-532.5%);
 	}   /* 5s */
 	
-	25% { /* 10÷4 */
+	25% { /* 10รท4 */
 		transform: translateY(-532.5%);
 	}
 	
@@ -587,7 +605,7 @@ h2 {
 		transform: translateY(-532.5%);
 	}   /* 5s */
 	
-	25% { /* 10÷4 */
+	25% { /* 10รท4 */
 		transform: translateY(-532.5%);
 	}
 	
@@ -625,7 +643,7 @@ h2 {
 		transform: translateY(-292.67%);
 	}   /* 5s */
 	
-	33.333% { /* 10÷3 */
+	33.333% { /* 10รท3 */
 		transform: translateY(-292.67%);
 	}
 	
@@ -655,7 +673,7 @@ h2 {
 		transform: translateY(-292.67%);
 	}   /* 5s */
 	
-	33.333% { /* 10÷3 */
+	33.333% { /* 10รท3 */
 		transform: translateY(-292.67%);
 	}
 	
@@ -685,7 +703,7 @@ h2 {
 		transform: translateY(-165%);
 	}   /* 5s */
 	
-	50% { /* 10÷3 */
+	50% { /* 10รท3 */
 		transform: translateY(-165%);
 	}
 	
@@ -707,7 +725,7 @@ h2 {
 		transform: translateY(-165%);
 	}   /* 5s */
 	
-	50% { /* 10÷3 */
+	50% { /* 10รท3 */
 		transform: translateY(-165%);
 	}
 	
