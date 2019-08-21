@@ -31,7 +31,7 @@ button {
 	font-size: 1.2em;
 	letter-spacing: 0.1em;
 	padding: 0.8em 0.6em;
-	margin: 2%;
+	margin: 2% 2% 4%;
 	border: none;
 	border-radius: 5px;
 }
@@ -41,38 +41,198 @@ button:hover {
 	cursor: pointer;
 }
 
-.Mercator {
-	height: 19.75px;
-	width: 19.75px;
-	background-color: #e0144c;
-	border-radius: 50%;
-	display: inline-block;
+button:active {
+	transform: translateY(2px);
 }
 
-.cel_Mercator {
-	margin-left: 100%;
-	width: 200%;
+/* For mobile screens */
+
+body {
+	background-color: black;
+	font-family: Lato, sans-serif;
+	color: white;
+	text-align: center;
 }
 
-button:focus+.cel_Mercator {
-	animation-name: left;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-	animation-fill-mode: both;
+h1 {
+	font-size: 1.3em;
+	letter-spacing: 0.2em;
 }
 
-.button:active {
-	background-color: #C3C3C3;
-    transform: translateY(2px);
+
+#podnaslov {
+	font-size: 0.7em;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+h2 {
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+}
+
+a:link {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 .widescreen {
 	display: none;
 }
 
+.cel_Mercator {
+	display: none;
+}
 
-@keyframes left {
+.Mercator {
+	height: 19.75px;
+	width: 19.75px;
+	background-color: #e0144c;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_Mercx {
+	animation: slide-left 2s ease-out;
+}
+
+.cela_Sava {
+	display: none;
+}
+
+.SavaRe {
+	height: 35.875px;
+	width: 35.875px;
+	background-color: #9DCFC0;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_Sava {
+	animation: slide-left 2s ease-out;
+}
+
+.cela_Luka {
+	display: none;
+}
+
+.Luka {
+	height: 50px;
+	width: 50px;
+	background-color: #004894;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_Luka {
+	animation: slide-left 2s ease-out;
+}
+
+.cel_Telekom {
+	display: none;
+}
+
+.Telekom {
+	height: 50px;
+	width: 50px;
+	background-color: #009EE3;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_Telekom {
+	animation: slide-left 2s ease-out;
+}
+
+.cel_Triglav {
+	display: none;
+}
+
+.Triglav {
+	height: 93.375px;
+	width: 93.375px;
+	background-color: #ed2939;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_Triglav {
+	animation: slide-left 2s ease-out;
+}
+
+.cel_Petrol {
+	display: none;
+}
+
+.Petrol {
+	height: 93.375px;
+	width: 93.375px;
+	background-color: #c5002c;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_Petrol {
+	  animation: slide-left 2s ease-out;
+}
+
+.cela_NLB {
+	display: none;
+}
+
+.NLB {
+	height: 143.25px;
+	width: 143.25px;
+	background-color: #26007d;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_NLB {
+	animation: slide-left 2s ease-out;
+}
+
+.cela_Krka {
+	display: none;
+}
+
+.Krka {
+	height: 262.25px;
+	width: 262.25px;
+	background-color: #00ab4e;
+	border-radius: 50%;
+	display: inline-block;
+	animation: scale-up-center 1s linear 2s both;
+}
+
+.value_Krka {
+	animation: slide-left 2s ease-out;
+}
+
+
+
+@keyframes slide-left {
 	0% {
 		margin-left: 100%;
 		width: 200%;
@@ -83,10 +243,22 @@ button:focus+.cel_Mercator {
 		
 	}
 
-@keyframes scale-up {
+}
+
+@keyframes scale-up-center {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
      }
  
+}
+
+@keyframes move-down {
+	0% {
+		transform: translateY(-100%);
+	}
+	
+	100% {
+	transform: translateY(0%);
+	}
+	
 }
