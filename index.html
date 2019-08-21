@@ -16,8 +16,7 @@
 <body>
 	<h1>NAJVEČJA SLOVENSKA PODJETJA<br>
 	<span id="podnaslov">(po tržni kapitalizaciji)</span></h1>
-	<button>Naprej</button>
-	<!--
+	<button id="gumb" onclick="appearMercator()">Začni</button>
 	<div class="columnwide1">
 	<div class="cela_Krka">
 		<div class="Krka">
@@ -80,7 +79,6 @@
 			<h2>287 mio €</h2>
 		</div>
 	</div>
-	-->
 	<div class="cel_Mercator">
 		<div class="Mercator">
 		</div>
@@ -89,6 +87,84 @@
 		<h2>158 mio €</h2>
 		</div>
 	</div>
+	
+<script>
+
+function appearMercator() {
+  document.getElementsByClassName("cel_Mercator")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearSava()");
+  document.getElementById("gumb").innerHTML = "Naprej";
+}
+
+function appearSava() {
+  document.getElementsByClassName("cel_Mercator")[0].style.display = "none";
+  document.getElementsByClassName("cela_Sava")[0].style.display = "block";
+  document.getElementsByClassName("Mercator")[0].style.animation = "none";
+  document.getElementsByClassName("value_Mercx")[0].style.animation = "none";
+  document.getElementById("gumb").setAttribute("onclick", "appearLuka()");
+}
+
+function appearLuka() {
+  document.getElementsByClassName("cela_Sava")[0].style.display = "none";
+  document.getElementsByClassName("cela_Luka")[0].style.display = "block";
+  document.getElementsByClassName("SavaRe")[0].style.animation = "none";
+  document.getElementsByClassName("value_Sava")[0].style.animation = "none";
+  document.getElementById("gumb").setAttribute("onclick", "appearTelekom()");
+}
+
+function appearTelekom() {
+  document.getElementsByClassName("cela_Luka")[0].style.display = "none";
+  document.getElementsByClassName("cel_Telekom")[0].style.display = "block";
+  document.getElementsByClassName("Luka")[0].style.animation = "none";
+  document.getElementsByClassName("value_Luka")[0].style.animation = "none";
+  document.getElementById("gumb").setAttribute("onclick", "appearTriglav()");
+}
+
+function appearTriglav() {
+  document.getElementsByClassName("cel_Telekom")[0].style.display = "none";
+  document.getElementsByClassName("cel_Triglav")[0].style.display = "block";
+  document.getElementsByClassName("Telekom")[0].style.animation = "none";
+  document.getElementsByClassName("value_Telekom")[0].style.animation = "none";
+  document.getElementById("gumb").setAttribute("onclick", "appearPetrol()");
+}
+
+function appearPetrol() {
+  document.getElementsByClassName("cel_Triglav")[0].style.display = "none";
+  document.getElementsByClassName("cel_Petrol")[0].style.display = "block";
+  document.getElementsByClassName("Triglav")[0].style.animation = "none";
+  document.getElementsByClassName("value_Triglav")[0].style.animation = "none";
+  document.getElementById("gumb").setAttribute("onclick", "appearNLB()");
+}
+
+function appearNLB() {
+  document.getElementsByClassName("cel_Petrol")[0].style.display = "none";
+  document.getElementsByClassName("cela_NLB")[0].style.display = "block";
+  document.getElementsByClassName("Petrol")[0].style.animation = "none";
+  document.getElementsByClassName("value_Petrol")[0].style.animation = "none";
+  document.getElementById("gumb").setAttribute("onclick", "appearKrka()");
+}
+
+function appearKrka() {
+  document.getElementsByClassName("cela_NLB")[0].style.display = "none";
+  document.getElementsByClassName("cela_Krka")[0].style.display = "block";
+  document.getElementsByClassName("NLB")[0].style.animation = "none";
+  document.getElementsByClassName("value_NLB")[0].style.animation = "none";
+  document.getElementById("gumb").innerHTML = "Pokaži vse";
+  document.getElementById("gumb").setAttribute("onclick", "appearAll()");	
+}
+
+function appearAll() {
+  document.getElementsByClassName("cela_NLB")[0].style.display = "block";
+  document.getElementsByClassName("cel_Petrol")[0].style.display = "block";
+  document.getElementsByClassName("cel_Triglav")[0].style.display = "block";
+  document.getElementsByClassName("cel_Telekom")[0].style.display = "block";
+  document.getElementsByClassName("cela_Luka")[0].style.display = "block";
+  document.getElementsByClassName("cela_Sava")[0].style.display = "block";
+  document.getElementsByClassName("cel_Mercator")[0].style.display = "block";
+  document.getElementById("gumb").style.visibility = "hidden";
+}
+                             
+</script>
 </body>
 
 </html>
