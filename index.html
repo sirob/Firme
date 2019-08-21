@@ -16,8 +16,7 @@
 <body>
 	<h1>NAJVEČJA SLOVENSKA PODJETJA<br>
 	<span id="podnaslov">(po tržni kapitalizaciji)</span></h1>
-	<button>Naprej</button>
-	<!--
+	<button id="gumb" onclick="appearMercator()">Naprej</button>
 	<div class="columnwide1">
 	<div class="cela_Krka">
 		<div class="Krka">
@@ -80,7 +79,6 @@
 			<h2>287 mio €</h2>
 		</div>
 	</div>
-	-->
 	<div class="cel_Mercator">
 		<div class="Mercator">
 		</div>
@@ -89,6 +87,57 @@
 		<h2>158 mio €</h2>
 		</div>
 	</div>
+	
+<script>
+
+function appearMercator() {
+  document.getElementsByClassName("cel_Mercator")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearSava()");
+}
+
+function appearSava() {
+  document.getElementsByClassName("cel_Mercator")[0].style.display = "none";
+  document.getElementsByClassName("cela_Sava")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearLuka()");
+}
+
+function appearLuka() {
+  document.getElementsByClassName("cela_Sava")[0].style.display = "none";
+  document.getElementsByClassName("cela_Luka")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearTelekom()");
+}
+
+function appearTelekom() {
+  document.getElementsByClassName("cela_Luka")[0].style.display = "none";
+  document.getElementsByClassName("cel_Telekom")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearTriglav()");
+}
+
+function appearTriglav() {
+  document.getElementsByClassName("cel_Telekom")[0].style.display = "none";
+  document.getElementsByClassName("cel_Triglav")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearPetrol()");
+}
+
+function appearPetrol() {
+  document.getElementsByClassName("cel_Triglav")[0].style.display = "none";
+  document.getElementsByClassName("cel_Petrol")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearNLB()");
+}
+
+function appearNLB() {
+  document.getElementsByClassName("cel_Petrol")[0].style.display = "none";
+  document.getElementsByClassName("cela_NLB")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearKrka()");
+}
+
+function appearKrka() {
+  document.getElementsByClassName("cela_NLB")[0].style.display = "none";
+  document.getElementsByClassName("cela_Krka")[0].style.display = "block";
+  document.getElementById("gumb").setAttribute("onclick", "appearAll()");
+}
+                             
+</script>
 </body>
 
 </html>
