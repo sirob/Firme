@@ -87,16 +87,20 @@
 		<h2>158 mio €</h2>
 		</div>
 	</div>
-
+	
 <script>
 
 function appearMercator() {
+  document.getElementsByClassName("Mercator")[0].style.animation = "scale-up-center 1s linear 2s both";
+  document.getElementsByClassName("value_Mercx")[0].style.animation = "slide-left 2s ease-out";
   document.getElementsByClassName("cel_Mercator")[0].style.display = "block";
   document.getElementById("gumb").setAttribute("onclick", "appearSava()");
   document.getElementById("gumb").innerHTML = "Naprej";
 }
 
 function appearSava() {
+  document.getElementsByClassName("SavaRe")[0].style.animation = "scale-up-center 1s linear 2s both";
+  document.getElementsByClassName("value_Sava")[0].style.animation = "slide-left 2s ease-out";
   document.getElementsByClassName("cel_Mercator")[0].style.display = "none";
   document.getElementsByClassName("cela_Sava")[0].style.display = "block";
   document.getElementsByClassName("Mercator")[0].style.animation = "none";
@@ -105,6 +109,8 @@ function appearSava() {
 }
 
 function appearLuka() {
+  document.getElementsByClassName("Luka")[0].style.animation = "scale-up-center 1s linear 2s both";
+  document.getElementsByClassName("value_Luka")[0].style.animation = "slide-left 2s ease-out";
   document.getElementsByClassName("cela_Sava")[0].style.display = "none";
   document.getElementsByClassName("cela_Luka")[0].style.display = "block";
   document.getElementsByClassName("SavaRe")[0].style.animation = "none";
@@ -113,6 +119,8 @@ function appearLuka() {
 }
 
 function appearTelekom() {
+  document.getElementsByClassName("Telekom")[0].style.animation = "scale-up-center 1s linear 2s both";
+  document.getElementsByClassName("value_Telekom")[0].style.animation = "slide-left 2s ease-out";
   document.getElementsByClassName("cela_Luka")[0].style.display = "none";
   document.getElementsByClassName("cel_Telekom")[0].style.display = "block";
   document.getElementsByClassName("Luka")[0].style.animation = "none";
@@ -121,6 +129,8 @@ function appearTelekom() {
 }
 
 function appearTriglav() {
+  document.getElementsByClassName("Triglav")[0].style.animation = "scale-up-center 1s linear 2s both";
+  document.getElementsByClassName("value_Triglav")[0].style.animation = "slide-left 2s ease-out";
   document.getElementsByClassName("cel_Telekom")[0].style.display = "none";
   document.getElementsByClassName("cel_Triglav")[0].style.display = "block";
   document.getElementsByClassName("Telekom")[0].style.animation = "none";
@@ -129,6 +139,8 @@ function appearTriglav() {
 }
 
 function appearPetrol() {
+  document.getElementsByClassName("Petrol")[0].style.animation = "scale-up-center 1s linear 2s both";
+  document.getElementsByClassName("value_Petrol")[0].style.animation = "slide-left 2s ease-out";
   document.getElementsByClassName("cel_Triglav")[0].style.display = "none";
   document.getElementsByClassName("cel_Petrol")[0].style.display = "block";
   document.getElementsByClassName("Triglav")[0].style.animation = "none";
@@ -137,6 +149,8 @@ function appearPetrol() {
 }
 
 function appearNLB() {
+  document.getElementsByClassName("NLB")[0].style.animation = "scale-up-center 1s linear 2s both";
+  document.getElementsByClassName("value_NLB")[0].style.animation = "slide-left 2s ease-out";
   document.getElementsByClassName("cel_Petrol")[0].style.display = "none";
   document.getElementsByClassName("cela_NLB")[0].style.display = "block";
   document.getElementsByClassName("Petrol")[0].style.animation = "none";
@@ -150,7 +164,7 @@ function appearKrka() {
   document.getElementsByClassName("NLB")[0].style.animation = "none";
   document.getElementsByClassName("value_NLB")[0].style.animation = "none";
   document.getElementById("gumb").innerHTML = "Pokaži vse";
-  document.getElementById("gumb").setAttribute("onclick", "appearAll()");
+  document.getElementById("gumb").setAttribute("onclick", "appearAll()");	
 }
 
 function appearAll() {
@@ -161,9 +175,23 @@ function appearAll() {
   document.getElementsByClassName("cela_Luka")[0].style.display = "block";
   document.getElementsByClassName("cela_Sava")[0].style.display = "block";
   document.getElementsByClassName("cel_Mercator")[0].style.display = "block";
-  document.getElementById("gumb").style.visibility = "hidden";
+  document.getElementById("gumb").innerHTML = "Znova začni";
+  document.getElementById("gumb").setAttribute("onclick", "disappearAll()");
 }
 
+function disappearAll() {
+  document.getElementsByClassName("cela_NLB")[0].style.display = "none";
+  document.getElementsByClassName("cel_Petrol")[0].style.display = "none";
+  document.getElementsByClassName("cel_Triglav")[0].style.display = "none";
+  document.getElementsByClassName("cel_Telekom")[0].style.display = "none";
+  document.getElementsByClassName("cela_Luka")[0].style.display = "none";
+  document.getElementsByClassName("cela_Sava")[0].style.display = "none";
+  document.getElementsByClassName("cel_Mercator")[0].style.display = "none";
+  document.getElementsByClassName("cela_Krka")[0].style.display = "none";
+  document.getElementById("gumb").innerHTML = "Začni";
+  document.getElementById("gumb").setAttribute("onclick", "appearMercator()");
+}
+                             
 </script>
 </body>
 
