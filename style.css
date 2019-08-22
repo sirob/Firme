@@ -45,8 +45,6 @@ button:active {
 	transform: translateY(2px);
 }
 
-/* For mobile screens */
-
 body {
 	background-color: black;
 	font-family: Lato, sans-serif;
@@ -260,5 +258,357 @@ a:active {
 	100% {
 	transform: translateY(0%);
 	}
+	
+}
+
+@media only screen and (min-width: 768px) {
+	
+.cel_Mercator {
+	margin-bottom: 5%;
+}
+
+.cela_Sava {
+	margin-bottom: 5%;
+}
+
+.cela_Luka {
+	margin-bottom: 5%;
+}
+
+.cel_Telekom {
+	margin-bottom: 5%;
+}
+
+.cel_Triglav {
+	margin-bottom: 5%;
+}
+
+.cel_Petrol {
+	margin-bottom: 5%;
+}
+
+.cela_NLB {
+	margin-bottom: 5%;
+}
+
+.cela_Krka {
+	margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 1200px) {
+	
+h1 {
+	font-size: 1.5em;
+	letter-spacing: 0.3em;
+	text-align: center;
+}
+
+button {
+	display: none;
+}
+
+
+#podnaslov {
+	font-size: 0.8em;
+	font-weight: 400;
+	overflow: hidden;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+}
+
+.mobile {
+	display: none;
+}
+
+.widescreen {
+	display: block;
+}
+
+.Mercator {
+	height: 19.75px;
+	width: 19.75px;
+	background-color: #e0144c;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 4s both;
+	        animation: scale-up-center-wide 1s linear 4s both;
+}
+
+.value_Mercx {
+	-webkit-animation: slide-right 2s ease-ot 2s both;
+	        animation: slide-right 2s ease-out 2s both;
+}
+
+.SavaRe {
+	height: 35.875px;
+	width: 35.875px;
+	background-color: #9DCFC0;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 7s both;
+	        animation: scale-up-center-wide 1s linear 7s both;
+}
+
+.value_Sava {
+	-webkit-animation: slide-right 2s ease-out 5s both;
+	        animation: slide-right 2s ease-out 5s both;
+}
+
+.Luka {
+	height: 50px;
+	width: 50px;
+	background-color: #004894;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 10s both;
+	        animation: scale-up-center-wide 1s linear 10s both;
+}
+
+.value_Luka {
+	-webkit-animation: slide-right 2s ease-out 8s both;
+	        animation: slide-right 2s ease-out 8s both;
+	
+}
+
+.Telekom {
+	height: 50px;
+	width: 50px;
+	background-color: #009EE3;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 13s both;
+	        animation: scale-up-center-wide 1s linear 13s both;
+}
+
+.value_Telekom {
+	margin: inherit;
+	-webkit-animation: slide-right 2s ease-out 11s both;
+	        animation: slide-right 2s ease-out 11s both;
+
+}
+
+
+.Triglav {
+	height: 93.375px;
+	width: 93.375px;
+	background-color: #ed2939;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 18s both;
+	        animation: scale-up-center-wide 1s linear 18s both;
+	
+}
+
+.value_Triglav {
+	margin: inherit;
+	-webkit-animation: slide-right 2s ease-out 16s both;
+	        animation: slide-right 2s ease-out 16s both;
+}
+
+.Petrol {
+	height: 93.375px;
+	width: 93.375px;
+	background-color: #c5002c;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 21s both;
+	        animation: scale-up-center-wide 1s linear 21s both;
+}
+
+.value_Petrol {
+	-webkit-animation: slide-right 2s ease-out 19s both;
+	        animation: slide-right 2s ease-out 19s both;
+}
+
+
+.NLB {
+	height: 143.25px;
+	width: 143.25px;
+	background-color: #26007d;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 24s both;
+	        animation: scale-up-center-wide 1s linear 24s both;
+}
+
+.value_NLB {
+	-webkit-animation: slide-right 2s ease-out 22s both;
+	        animation: slide-right 2s ease-out 22s both;
+}
+
+.Krka {
+	height: 262.25px;
+	width: 262.25px;
+	background-color: #00ab4e;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: scale-up-center-wide 1s linear 27s both;
+	        animation: scale-up-center-wide 1s linear 27s both;
+
+}
+
+.value_Krka {
+	-webkit-animation: slide-right 2s ease-out 25s both;
+	        animation: slide-right 2s ease-out 25s both;
+}
+
+
+	
+.cel_Mercator {
+	display: inline-block;
+    text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.cela_Sava {
+	display: inline-block;
+    text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.cela_Luka {
+	display: inline-block;
+	text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.cel_Telekom {
+	display: inline-block;
+	text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.cel_Triglav {
+	display: inline-block;
+	text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.cel_Petrol {
+	display: inline-block;
+	text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.cela_NLB {
+	display: inline-block;
+	text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.cela_Krka {
+	display: inline-block;
+	text-align: center;
+	width: 263px;
+	margin: 1%;
+	animation: none;
+	transform: none;
+}
+
+.columnwide1 {
+	display: block;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	justify-content: space-between;
+}
+
+.columnwide2 {
+	display: block;
+	text-align: center;
+	justify-content: space-between;
+	transform: translateY(-210%);
+	-webkit-animation: move-down-wide 1s linear 15s  forwards;
+	        animation: move-down-wide 1s linear 15s  forwards;	
+}
+
+@-webkit-keyframes move-down-wide {
+	0% {
+		transform:translateY(-210%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes move-down-wide {
+	0% {
+		transform:translateY(-210%);
+	}
+	
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes slide-right {
+	0% {
+		margin-right: 100%;
+		width: 200%;
+	}
+	
+	100% {
+		margin-right: 0%;
+		width: 100%;	
+	}
+
+}
+
+@keyframes slide-right {
+	0% {
+	-webkit-transform: translateX(-800%);
+            transform: translateX(-800%);
+	}
+	
+	100% {
+		-webkit-transform: translateX(0%);
+            transform: translateX(0%);	
+	}
+
+}
+
+@-webkit-keyframes scale-up-center-wide {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+     }
+ 
+}
+
+@keyframes scale-up-center-wide {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+     }
+ 
+}
+
 	
 }
