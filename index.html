@@ -4,6 +4,112 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Najvrednejša slovenska podjetja</title>
+	<script>
+	fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=MELR&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var mercatorArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var mercatorCap = (mercatorArr[2].slice(0, mercatorArr[2].lastIndexOf(",")));
+	var mercatorPx = parseInt(mercatorArr[2].replace(".","")) / 8;
+	document.getElementById("Mercator_cap").innerHTML = String(mercatorCap) + " mio €";
+	document.getElementsByClassName("Mercator")[0].style.height = String(mercatorPx) + "px";
+	document.getElementsByClassName("Mercator")[0].style.width = String(mercatorPx) + "px";
+    });
+	
+	fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=POSR&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var savaArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var savaCap = (savaArr[2].slice(0, savaArr[2].lastIndexOf(",")));
+	var savaPx = parseInt(savaArr[2].replace(".","")) / 8;
+	document.getElementById("Sava_cap").innerHTML = String(savaCap) + " mio €";
+	document.getElementsByClassName("SavaRe")[0].style.height = String(savaPx) + "px";
+	document.getElementsByClassName("SavaRe")[0].style.width = String(savaPx) + "px";
+    });
+	
+	fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=LKPG&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var lukaArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var lukaCap = (lukaArr[2].slice(0, lukaArr[2].lastIndexOf(",")));
+	var lukaPx = parseInt(lukaArr[2].replace(".","")) / 8;
+	document.getElementById("Luka_cap").innerHTML = String(lukaCap) + " mio €";
+	document.getElementsByClassName("Luka")[0].style.height = String(lukaPx) + "px";
+	document.getElementsByClassName("Luka")[0].style.width = String(lukaPx) + "px";
+    });
+	
+	fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=TLSG&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var telekomArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var telekomCap = (telekomArr[2].slice(0, telekomArr[2].lastIndexOf(",")));
+	var telekomPx = parseInt(telekomArr[2].replace(".","")) / 8;
+	document.getElementById("Telekom_cap").innerHTML = String(telekomCap) + " mio €";
+	document.getElementsByClassName("Telekom")[0].style.height = String(telekomPx) + "px";
+	document.getElementsByClassName("Telekom")[0].style.width = String(telekomPx) + "px";
+    });
+	
+	fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=ZVTG&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var triglavArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var triglavCap = (triglavArr[2].slice(0, triglavArr[2].lastIndexOf(",")));
+	var triglavPx = parseInt(triglavArr[2].replace(".","")) / 8;
+	document.getElementById("Triglav_cap").innerHTML = String(triglavCap) + " mio €";
+	document.getElementsByClassName("Triglav")[0].style.height = String(triglavPx) + "px";
+	document.getElementsByClassName("Triglav")[0].style.width = String(triglavPx) + "px";
+    });
+	
+	fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=PETG&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var petrolArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var petrolCap = (petrolArr[2].slice(0, petrolArr[2].lastIndexOf(",")));
+	var petrolPx = parseInt(petrolArr[2].replace(".", "")) / 8;
+	console.log(petrolArr, petrolCap, petrolPx);
+	document.getElementById("Petrol_cap").innerHTML = String(petrolCap) + " mio €";
+	document.getElementsByClassName("Petrol")[0].style.height = String(petrolPx) + "px";
+	document.getElementsByClassName("Petrol")[0].style.width = String(petrolPx) + "px";
+    });
+	
+	fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=NLBR&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var nlbArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var nlbCap = (nlbArr[2].slice(0, nlbArr[2].lastIndexOf(",")));
+	var nlbPx = parseInt(nlbArr[2].replace(".","")) / 8;
+	document.getElementById("NLB_cap").innerHTML = String(nlbCap) + " mrd €";
+	document.getElementsByClassName("NLB")[0].style.height = String(nlbPx) + "px";
+	document.getElementsByClassName("NLB")[0].style.width = String(nlbPx) + "px";
+    });
+	
+    fetch("https://cors-anywhere.herokuapp.com/http://www.ljse.si/cgi-bin/jve.cgi?SecurityID=KRKG&doc=818")
+    .then(function (response) {
+    return response.text();
+	})
+    .then (function (text) {
+    var krkaArr = text.match(/kapitalizacija \(v mio\) (<\/TD>\r\n<TD class=ozadjeTecajnica vAlign=top align=right>(.*)<\/TD>)/);
+	var krkaCap = (krkaArr[2].slice(0,krkaArr[2].lastIndexOf(",")));
+	var krkaPx = parseInt(krkaArr[2].replace(".","")) / 8;
+	document.getElementById("Krka_cap").innerHTML = String(krkaCap) + " mrd €";
+	document.getElementsByClassName("Krka")[0].style.height = String(krkaPx) + "px";
+	document.getElementsByClassName("Krka")[0].style.width = String(krkaPx) + "px";
+    });	
+  </script>
 	<link href="style.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Muli|Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/tkx7xlg.css">
@@ -23,7 +129,7 @@
 		</div>
 		<div class="value_Krka">
 			<h2>Krka</h2>
-			<h2>2.089 mrd €</h2>
+			<h2 id="Krka_cap">2.089 mrd €</h2>
 		</div>
 	</div>
 	<div class="cela_NLB">
@@ -32,7 +138,7 @@
 		<div class="value_NLB">
 			<h2 class="mobile">Nova Ljubljanska banka</h2>
 			<h2 class="widescreen">NLB</h2>
-			<h2>1.164 mrd €</h2>
+			<h2 id="NLB_cap">1.164 mrd €</h2>
 		</div>
 	</div>
 	<div class="cel_Petrol">
@@ -40,7 +146,7 @@
 		</div>
 		<div class="value_Petrol">
 			<h2>Petrol</h2>
-			<h2>747 mio €</h2>
+			<h2 id="Petrol_cap">747 mio €</h2>
 		</div>
 	</div>
 	<div class="cel_Triglav">
@@ -49,7 +155,7 @@
 		<div class="value_Triglav">
 			<h2 class="mobile">Zavarovalnica Triglav</h2>
 			<h2 class="widescreen">Triglav</h2>
-			<h2>746 mio €</h2>
+			<h2 id="Triglav_cap">746 mio €</h2>
 		</div>
 	</div>
 	</div>
@@ -60,7 +166,7 @@
 		<div class="value_Telekom">
 			<h2 class="mobile">Telekom Slovenije</h2>
 			<h2 class="widescreen">Telekom</h2>
-			<h2>406 mio €</h2>
+			<h2 id="Telekom_cap">406 mio €</h2>
 		</div>
 	</div>
 	<div class="cela_Luka">
@@ -68,7 +174,7 @@
 		</div>
 		<div class="value_Luka">
 			<h2>Luka Koper</h2>
-			<h2>403 mio €</h2>
+			<h2 id="Luka_cap">403 mio €</h2>
 		</div>
 	</div>
 	<div class="cela_Sava">
@@ -76,7 +182,7 @@
 		</div>
 		<div class="value_Sava">
 			<h2>SavaRe</h2>
-			<h2>287 mio €</h2>
+			<h2 id="Sava_cap">290 mio €</h2>
 		</div>
 	</div>
 	<div class="cel_Mercator">
@@ -84,7 +190,7 @@
 		</div>
 		<div class="value_Mercx">
 		<h2>Mercator</h2>
-		<h2>158 mio €</h2>
+		<h2 id="Mercator_cap">150 mio €</h2>
 		</div>
 	</div>
 	
