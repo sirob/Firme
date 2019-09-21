@@ -65,7 +65,7 @@ a:active {
 .SavaRe {
 	height: 35.875px;
 	width: 35.875px;
-	background-color: #9DCFC0;
+	background-color: #3CA082;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 10s both;
@@ -80,7 +80,7 @@ a:active {
 .Luka {
 	height: 50px;
 	width: 50px;
-	background-color: #004894;
+	background-color: #003087;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 16s both;
@@ -95,7 +95,7 @@ a:active {
 .Telekom {
 	height: 50px;
 	width: 50px;
-	background-color: #009EE3;
+	background-color: ##00a3e0;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 22s both;
@@ -111,7 +111,7 @@ a:active {
 .Triglav {
 	height: 93.375px;
 	width: 93.375px;
-	background-color: #ed2939;
+	background-color: ##ef3340;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 28s both;
@@ -142,7 +142,7 @@ a:active {
 .NLB {
 	height: 143.25px;
 	width: 143.25px;
-	background-color: #26007d;
+	background-color: #28007D;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 40s both;
@@ -157,7 +157,7 @@ a:active {
 .Krka {
 	height: 262.25px;
 	width: 262.25px;
-	background-color: #00ab4e;
+	background-color: #009639;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 46s both;
@@ -184,7 +184,7 @@ a:active {
 	-webkit-animation: move-down-sav 36s linear 12s  forwards;
 	        animation: move-down-sav 36s linear 12s  forwards;
 			transform: translateY(-1030%);
-	
+
 }
 
 .cela_Luka {
@@ -236,59 +236,59 @@ a:active {
 	0% {
 		transform: translateY(-1298%);
 	}  /* 1s*/
-	
+
 	2.381% {
 		transform: translateY(-1112.57%);
 	}   /* 5s */
-	
+
 	14.285% { /* 10รท7 */
 		transform: translateY(-1112.57%);
 	}
-	
+
 	16.666% {
 		transform: translateY(-927.14%);
 	}
-	
+
 	28.571% {
 		transform: translateY(-927.14%);
 	}
-	
+
 	30.952%  {
 		transform: translateY(-741.71%);
 	}
-	
+
 	42.857%  {
 		transform: translateY(-741.71%);
 	}
-	
+
 	45.238%  {
 		transform: translateY(-556.28%);
 	}
-	
+
 	57.143%  {
 		transform: translateY(-556.28%);
 	}
-	
+
 	59.524% {
 		transform: translateY(-370.85%);
 	}
-	
+
 	71.429% {
 		transform: translateY(-370.85%);
 	}
-	
+
 	73.81%  {
 		transform: translateY(-185.43%);
 	}
-	
+
 	85.714% {
 		transform: translateY(-185.43%);
 	}
-	
+
 	88.095%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -299,59 +299,59 @@ a:active {
 	0% {
 		transform: translateY(-1298%);
 	}  /* 1s*/
-	
+
 	2.381% {
 		transform: translateY(-1112.57%);
 	}   /* 5s */
-	
+
 	14.285% { /* 10รท7 */
 		transform: translateY(-1112.57%);
 	}
-	
+
 	16.666% {
 		transform: translateY(-927.14%);
 	}
-	
+
 	28.571% {
 		transform: translateY(-927.14%);
 	}
-	
+
 	30.952%  {
 		transform: translateY(-741.71%);
 	}
-	
+
 	42.857%  {
 		transform: translateY(-741.71%);
 	}
-	
+
 	45.238%  {
 		transform: translateY(-556.28%);
 	}
-	
+
 	57.143%  {
 		transform: translateY(-556.28%);
 	}
-	
+
 	59.524% {
 		transform: translateY(-370.85%);
 	}
-	
+
 	71.429% {
 		transform: translateY(-370.85%);
 	}
-	
+
 	73.81%  {
 		transform: translateY(-185.43%);
 	}
-	
+
 	85.714% {
 		transform: translateY(-185.43%);
 	}
-	
+
 	88.095%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -361,51 +361,51 @@ a:active {
 		0% {
 		transform: translateY(-1030%);
 	}  /* 1s*/
-	
+
 	2.777% {
 		transform: translateY(-858.33%);
 	}   /* 5s */
-	
+
 	16.666% { /* 10รท6 */
 		transform: translateY(-858.33%);
 	}
-	
+
 	19.443% {
 		transform: translateY(-686.66%);
 	}
-	
+
 	33.333% {
 		transform: translateY(-686.66%);
 	}
-	
+
 	36.107%  {
 		transform: translateY(-514.99%);
 	}
-	
+
 	49.999%  {
 		transform: translateY(-514.99%);
 	}
-	
+
 	52.776%  {
 		transform: translateY(-343.32%);
 	}
-	
+
 	66.666%  {
 		transform: translateY(-343.32%);
 	}
-	
+
 	69.443% {
 		transform: translateY(-171.66%);
 	}
-	
+
 	83.333% {
 		transform: translateY(-171.66%);
 	}
-	
+
 	86.11%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -415,51 +415,51 @@ a:active {
 		0% {
 		transform: translateY(-1030%);
 	}  /* 1s*/
-	
+
 	2.777% {
 		transform: translateY(-858.33%);
 	}   /* 5s */
-	
+
 	16.666% { /* 10รท6 */
 		transform: translateY(-858.33%);
 	}
-	
+
 	19.443% {
 		transform: translateY(-686.66%);
 	}
-	
+
 	33.333% {
 		transform: translateY(-686.66%);
 	}
-	
+
 	36.107%  {
 		transform: translateY(-514.99%);
 	}
-	
+
 	49.999%  {
 		transform: translateY(-514.99%);
 	}
-	
+
 	52.776%  {
 		transform: translateY(-343.32%);
 	}
-	
+
 	66.666%  {
 		transform: translateY(-343.32%);
 	}
-	
+
 	69.443% {
 		transform: translateY(-171.66%);
 	}
-	
+
 	83.333% {
 		transform: translateY(-171.66%);
 	}
-	
+
 	86.11%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -469,43 +469,43 @@ a:active {
 	0% {
 		transform: translateY(-820%);
 	}  /* 1s*/
-	
+
 	3.333% {
 		transform: translateY(-656%);
 	}   /* 5s */
-	
+
 	20% { /* 10รท5 */
 		transform: translateY(-656%);
 	}
-	
+
 	23.333% {
 		transform: translateY(-492%);
 	}
-	
+
 	40% {
 		transform: translateY(-492%);
 	}
-	
+
 	43.333%  {
 		transform: translateY(-328%);
 	}
-	
+
 	60%  {
 		transform: translateY(-328%);
 	}
-	
+
 	63.333%  {
 		transform: translateY(-164%);
 	}
-	
+
 	80%  {
 		transform: translateY(-164%);
 	}
-	
+
 	83.333% {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -515,43 +515,43 @@ a:active {
 	0% {
 		transform: translateY(-820%);
 	}  /* 1s*/
-	
+
 	3.333% {
 		transform: translateY(-656%);
 	}   /* 5s */
-	
+
 	20% { /* 10รท5 */
 		transform: translateY(-656%);
 	}
-	
+
 	23.333% {
 		transform: translateY(-492%);
 	}
-	
+
 	40% {
 		transform: translateY(-492%);
 	}
-	
+
 	43.333%  {
 		transform: translateY(-328%);
 	}
-	
+
 	60%  {
 		transform: translateY(-328%);
 	}
-	
+
 	63.333%  {
 		transform: translateY(-164%);
 	}
-	
+
 	80%  {
 		transform: translateY(-164%);
 	}
-	
+
 	83.333% {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -561,74 +561,74 @@ a:active {
 	0% {
 		transform: translateY(-710%);
 	}  /* 1s*/
-	
+
 	4.166% {
 		transform: translateY(-532.5%);
 	}   /* 5s */
-	
+
 	25% { /* 10รท4 */
 		transform: translateY(-532.5%);
 	}
-	
+
 	29.166% {
 		transform: translateY(-355%);
 	}
-	
+
 	50% {
 		transform: translateY(-355%);
 	}
-	
+
 	54.166%  {
 		transform: translateY(-177.5%);
 	}
-	
+
 	75%  {
 		transform: translateY(-177.5%);
 	}
-	
+
 	79.166%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
-	
+
 }
 
 @-webkit-keyframes move-down-tel {
 	0% {
 		transform: translateY(-710%);
 	}  /* 1s*/
-	
+
 	4.166% {
 		transform: translateY(-532.5%);
 	}   /* 5s */
-	
+
 	25% { /* 10รท4 */
 		transform: translateY(-532.5%);
 	}
-	
+
 	29.166% {
 		transform: translateY(-355%);
 	}
-	
+
 	50% {
 		transform: translateY(-355%);
 	}
-	
+
 	54.166%  {
 		transform: translateY(-177.5%);
 	}
-	
+
 	75%  {
 		transform: translateY(-177.5%);
 	}
-	
+
 	79.166%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -638,27 +638,27 @@ a:active {
     0% {
 		transform: translateY(-439%);
 	}  /* 1s*/
-	
+
 	5.555% {
 		transform: translateY(-292.67%);
 	}   /* 5s */
-	
+
 	33.333% { /* 10รท3 */
 		transform: translateY(-292.67%);
 	}
-	
+
 	38.8885% {
 		transform: translateY(-146.34%);
 	}
-	
+
 	66.666% {
 		transform: translateY(-146.34%);
 	}
-	
+
 	72.221%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -668,27 +668,27 @@ a:active {
 	0% {
 		transform: translateY(-439%);
 	}  /* 1s*/
-	
+
 	5.555% {
 		transform: translateY(-292.67%);
 	}   /* 5s */
-	
+
 	33.333% { /* 10รท3 */
 		transform: translateY(-292.67%);
 	}
-	
+
 	38.8885% {
 		transform: translateY(-146.34%);
 	}
-	
+
 	66.666% {
 		transform: translateY(-146.34%);
 	}
-	
+
 	72.221%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -698,19 +698,19 @@ a:active {
 	0% {
 		transform: translateY(-330%);
 	}  /* 1s*/
-	
+
 	8.333% {
 		transform: translateY(-165%);
 	}   /* 5s */
-	
+
 	50% { /* 10รท3 */
 		transform: translateY(-165%);
 	}
-	
+
 	58.333%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -720,19 +720,19 @@ a:active {
 	0% {
 		transform: translateY(-330%);
 	}  /* 1s*/
-	
+
 	8.333% {
 		transform: translateY(-165%);
 	}   /* 5s */
-	
+
 	50% { /* 10รท3 */
 		transform: translateY(-165%);
 	}
-	
+
 	58.333%  {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -742,11 +742,11 @@ a:active {
 	0% {
 		transform: translateY(-155%);
 	}  /* 1s*/
-	
+
 	16.666% {
 		transform: translateY(0%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -756,11 +756,11 @@ a:active {
 	0% {
 		transform: translateY(-155%);
 	}  /* 1s*/
-	
+
 	16.666% {
 		transform: translateY(0%);
-	}	
-	
+	}
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -773,10 +773,10 @@ a:active {
 		margin-left: 100%;
 		width: 200%;
 	}
-	
+
 	100% {margin-left: 0%;
 		width: 100%;
-		
+
 	}
 
 }
@@ -786,10 +786,10 @@ a:active {
 		margin-left: 100%;
 		width: 200%;
 	}
-	
+
 	100% {margin-left: 0%;
 		width: 100%;
-		
+
 	}
 
 }
@@ -799,7 +799,7 @@ a:active {
     -webkit-transform: scale(0);
             transform: scale(0);
      }
- 
+
 }
 
 @keyframes scale-up-center {
@@ -807,11 +807,11 @@ a:active {
     -webkit-transform: scale(0);
             transform: scale(0);
      }
- 
+
 }
 
 @media only screen and (min-width: 768px) {
-	
+
 .cel_Mercator {
 	height: 110px;
 	margin-bottom: 5%;
@@ -826,7 +826,7 @@ a:active {
 	-webkit-animation: move-down-sav 36s linear 12s  forwards;
 	        animation: move-down-sav 36s linear 12s  forwards;
 			transform: translateY(-1030%);
-	
+
 }
 
 .cela_Luka {
@@ -873,12 +873,12 @@ a:active {
 	height: 352.25px;
 	margin-bottom: 5%;
 }
-	
-	
+
+
 }
 
 @media only screen and (min-width: 992px) {
-	
+
 	.cel_Mercator {
 	height: 110px;
 	margin-bottom: 3%;
@@ -893,7 +893,7 @@ a:active {
 	-webkit-animation: move-down-sav 36s linear 12s  forwards;
 	        animation: move-down-sav 36s linear 12s  forwards;
 			transform: translateY(-1030%);
-	
+
 }
 
 .cela_Luka {
@@ -940,12 +940,12 @@ a:active {
 	height: 352.25px;
 	margin-bottom: 3%;
 }
-	
-	
+
+
 }
 
 @media only screen and (min-width: 1200px) {
-	
+
 h1 {
 	font-size: 1.5em;
 	letter-spacing: 0.3em;
@@ -1017,7 +1017,7 @@ h2 {
 .value_Luka {
 	-webkit-animation: slide-right 2s ease-out 8s both;
 	        animation: slide-right 2s ease-out 8s both;
-	
+
 }
 
 .Telekom {
@@ -1046,7 +1046,7 @@ h2 {
 	display: inline-block;
 	-webkit-animation: scale-up-center-wide 1s linear 18s both;
 	        animation: scale-up-center-wide 1s linear 18s both;
-	
+
 }
 
 .value_Triglav {
@@ -1103,7 +1103,7 @@ h2 {
 }
 
 
-	
+
 .cel_Mercator {
 	display: inline-block;
     text-align: center;
@@ -1190,14 +1190,14 @@ h2 {
 	justify-content: space-between;
 	transform: translateY(-210%);
 	-webkit-animation: move-down-wide 1s linear 15s  forwards;
-	        animation: move-down-wide 1s linear 15s  forwards;	
+	        animation: move-down-wide 1s linear 15s  forwards;
 }
 
 @-webkit-keyframes move-down-wide {
 	0% {
 		transform:translateY(-210%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -1207,7 +1207,7 @@ h2 {
 	0% {
 		transform:translateY(-210%);
 	}
-	
+
 	100% {
 		transform: translateY(0%);
 	}
@@ -1218,10 +1218,10 @@ h2 {
 		margin-right: 100%;
 		width: 200%;
 	}
-	
+
 	100% {
 		margin-right: 0%;
-		width: 100%;	
+		width: 100%;
 	}
 
 }
@@ -1231,10 +1231,10 @@ h2 {
 	-webkit-transform: translateX(-800%);
             transform: translateX(-800%);
 	}
-	
+
 	100% {
 		-webkit-transform: translateX(0%);
-            transform: translateX(0%);	
+            transform: translateX(0%);
 	}
 
 }
@@ -1244,7 +1244,7 @@ h2 {
     -webkit-transform: scale(0);
             transform: scale(0);
      }
- 
+
 }
 
 @keyframes scale-up-center-wide {
@@ -1252,8 +1252,8 @@ h2 {
     -webkit-transform: scale(0);
             transform: scale(0);
      }
- 
+
 }
 
-	
+
 }
