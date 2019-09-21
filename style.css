@@ -95,7 +95,7 @@ a:active {
 .Telekom {
 	height: 50px;
 	width: 50px;
-	background-color: ##00a3e0;
+	background-color: #00a3e0;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 22s both;
@@ -111,7 +111,7 @@ a:active {
 .Triglav {
 	height: 93.375px;
 	width: 93.375px;
-	background-color: ##ef3340;
+	background-color: #ef3340;
 	border-radius: 50%;
 	display: inline-block;
 	-webkit-animation: scale-up-center 1s linear 28s both;
